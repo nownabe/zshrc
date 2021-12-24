@@ -80,6 +80,7 @@ alias open='xdg-open'
 alias k='kubectl'
 alias bat='batcat'
 alias bazel='bazelisk'
+alias vi='nvim'
 
 # Ruby
 alias bi='bundle install'
