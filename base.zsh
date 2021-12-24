@@ -91,7 +91,9 @@ alias be='bundle exec'
 # Load local .zsh
 #--------------------------------
 
-for config in $(ls $HOME/.zsh.d/*.zsh); do
-  source $config
-done
+if [[ -d "$HOME/.zsh.d" ]]; then
+  for config in $(ls $HOME/.zsh.d/*.zsh); do
+    source $config
+  done
+fi
 
