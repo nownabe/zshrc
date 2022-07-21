@@ -79,7 +79,6 @@ alias open='xdg-open'
 # General commands
 alias k='kubectl'
 alias bat='batcat'
-alias bazel='bazelisk'
 alias vi='nvim'
 
 # Ruby
