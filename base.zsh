@@ -73,8 +73,8 @@ alias mv='mv -i'
 alias mkdir='mkdir -p'
 
 # Desktop
-alias pbcopy='xsel --clipboard --input'
-alias open='xdg-open'
+[[ "$(uname)" != "Darwin" ]] && alias pbcopy='xsel --clipboard --input'
+[[ "$(uname)" != "Darwin" ]] && alias open='xdg-open'
 
 # General commands
 alias k='kubectl'
